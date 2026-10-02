@@ -61,8 +61,6 @@ fun LoginContent(
             color = MaterialTheme.colorScheme.primary
         )
 
-       
-
         OutlinedTextField(
             value = uiState.usuario,
             onValueChange = { onEvent(LoginEvent.OnUsuarioChange(it)) },
